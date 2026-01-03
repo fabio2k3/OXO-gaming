@@ -1,0 +1,11 @@
+cabal-version:       3.6
+name:                CeroCruz
+version:             0.1.0.0
+build-type:          Simple
+
+executable CeroCruz
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  build-depends:       base >=4.17 && <5,
+                       random >=1.3 && <1.4
+  default-language:    Haskell2010
